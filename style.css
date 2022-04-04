@@ -1,0 +1,360 @@
+/**** Feuille de style pour le projet 5 Orinoco ! ****/
+
+/* Page d'accueil, index.html */
+html {
+  text-size-adjust: 100%; /* Determine ajustement taille police par rapport à sa taille initiale*/
+  font-size: 100%; /*Tous mes éléments utilisant l’unité de mesure REM, auront une taille relative à cette taille (100% dans le cas présent)*/
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+main {
+  /*margin: auto;*/
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.container {
+  max-width: 2000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  z-index: 10;
+  --tw-bg-opacity: 1;
+  background-color: rgba(243, 233, 241, var(--tw-bg-opacity));
+  width: 98%;
+  padding: 1%;
+}
+
+.div-header {
+  margin: auto;
+  padding: 5px;
+}
+
+.pink {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  width: 150px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+.index {
+  font-size: x-large;
+  font-weight: bolder;
+  margin-left: 1000px;
+}
+
+.panier {
+  margin-right: 300px;
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+#title {
+  margin-left: 2%;
+  margin-top: 3%;
+}
+
+section {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+#allProducts {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgba(243, 233, 241, var(--tw-bg-opacity));
+  width: auto;
+}
+
+.nounours {
+  padding: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  border-radius: 30px;
+  --tw-bg-opacity: 1;
+  background-color: rgba(243, 233, 241, var(--tw-bg-opacity));
+  padding: 20px;
+  margin-top: 2rem;
+  list-style: none;
+  width: 27rem;
+  align-items: center;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
+}
+
+.card :hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.card-img-top {
+  width: 20rem;
+  border-radius: 10px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  margin: 0;
+}
+
+.card-title,
+.card-text {
+  margin-left: 2%;
+}
+
+.card-text {
+  color: rgba(0, 0, 0, 0.698);
+  background-color: white;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.more {
+  border-radius: 20px;
+  background-color: #7f46ad;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+/*Footer*/
+#footer-footer {
+  display: flex;
+  background: whitesmoke;
+  padding: 5%;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  line-height: 0.5;
+  min-height: 10vh;
+}
+.white {
+  font-weight: 300;
+  flex: 1;
+}
+
+#copyright {
+  font-style: normal;
+  font-weight: 500;
+  color: rgb(41, 39, 39);
+}
+
+/*End footer*/
+
+/*Fin page d'accueil, index.html*/
+
+/*************Page produits, products.html *****************/
+.fa-arrow-left {
+  color: #7f2df1;
+}
+
+.violet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #d9c9ef;
+  width: auto;
+}
+
+#change-card {
+  margin-right: auto;
+  margin-left: auto;
+  background: #ffffff;
+  object-fit: cover;
+}
+
+#change-card :hover {
+  -webkit-transform: none;
+  transform: none;
+}
+
+#topi {
+  width: 25rem;
+  height: 100%;
+}
+
+.onclick {
+  cursor: pointer;
+}
+.footer-bis {
+}
+.change-footer {
+  display: flex;
+  justify-content: space-evenly;
+  background: #d9c9ef;
+  position: relative;
+  bottom: 0;
+  margin-top: 4%;
+  width: 96%;
+  padding: 2%;
+
+  align-items: center;
+}
+/*Fin page produits, produits.html*/
+
+/*************Page panier, panier.html *****************/
+
+#main {
+  width: 100%;
+}
+
+caption {
+  margin-bottom: 8%;
+  color: rgb(41, 39, 39);
+}
+
+.color {
+  background: rgb(228, 225, 221);
+  border: white;
+}
+
+input {
+  color: #781cc3;
+}
+.onclick {
+  display: block;
+  background-color: #9866c1;
+  border-color: blueviolet;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  height: 50px;
+  font-weight: bolder;
+}
+
+/******Fin page panier******/
+
+/*******************************************BREAKPOINTS************************************************/
+
+/**************************** @media 1240px *************************/
+
+@media screen and (max-width: 1440px) {
+  .index {
+    margin-left: 250px;
+  }
+  header {
+    margin: auto;
+  }
+  /*************Page produits, products.html *****************/
+  .onclick {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+  }
+  section {
+    margin-left: 20%;
+  }
+  /*************Page produits, products.html *****************/
+
+  .onclick {
+    width: 50%;
+  }
+}
+
+/**************************** @media 768px *************************/
+/***********Page index.html************/
+@media screen and (max-width: 768px) {
+  .index {
+    margin-left: 50px;
+  }
+  li.item {
+    width: 80%;
+  }
+  .item img {
+    width: 18rem;
+  }
+  .card-img-top {
+    width: 10rem;
+  }
+  .card {
+    width: 350px;
+  }
+  #footer-footer {
+    text-align: center;
+  }
+  /*************Page produits, products.html *****************/
+  .footer-bis {
+  }
+  .change-footer {
+    flex-direction: column;
+  }
+  /*************Page panier, panier.html *****************/
+  .panier {
+    margin-right: 0;
+  }
+  .pink {
+    justify-content: space-around;
+  }
+}
+
+/**************************** @media 425px *************************/
+/***********Page index.html************/
+@media all and (max-width: 425px) {
+  body {
+    width: fit-content;
+    margin: auto;
+  }
+  main {
+    margin: auto;
+    display: block;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  #allProducts {
+    margin: auto;
+  }
+  .panier {
+    margin-right: 10px;
+  }
+  .index {
+    margin-left: 280px;
+  }
+
+  #allProducts {
+    flex-direction: column;
+    margin: 30px 10px;
+  }
+
+  .card-img-top {
+    margin-top: 30px;
+    width: 20rem;
+  }
+
+  /*************Page produits, products.html *****************/
+  #topi {
+    width: 15rem;
+  }
+}
