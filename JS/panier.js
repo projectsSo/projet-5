@@ -12,9 +12,9 @@ function SaveBasket(basketToSave) {
   let basketString = JSON.stringify(basketToSave);
   localStorage.setItem("basket", basketString);
 }
+//--------------Fin gestion local storage
 
 function afficherPanier() {
-  document.getElementById("corpsPanier").innerHTML = ""; //nettoyage du html
   let totalPanier = 0;
 
   //itérer sur le panier
@@ -68,7 +68,6 @@ let Total;
 
 const votrePanier = document.querySelector(".etatPanier");
 const votrePanierTitre = document.createElement("h2");
-votrePanier.append(votrePanierTitre);
 
 const corpsPanier = document.getElementById("corpsPanier");
 
@@ -189,6 +188,17 @@ function validationClick(e) {
     alert("Votre panier est vide");
     return; //empêche l'exécution de la suite de la fonction
   }
+
+  //Affiche le total du prix dans confirmation.js
+  let totalPrice = 0;
+
+  basket.forEach(function (produit) {
+    totalPrice += (produit.quantity * produit.price) / 100;
+    for (const produit of basket) {
+      totalPrice = totalPrice + (produit.quantity * produit.price) / 100;
+    }
+  });
+
   //var contact = new newUser(nom.value, prenom, adresse, email, ville);
   let contact = {
     firstName: prenom,
@@ -212,8 +222,7 @@ function validationClick(e) {
 
       localStorage.setItem("variableContenu", contenu);
 
-      document.location.href = "confirmation.html";
-      //console.log("variableContenu", contenu);
+      window.location = `confirmation.html?orderId=${contenu.orderId}&totalprice=${totalPrice}`;
 
       //Vider le panier
       localStorage.clear();
