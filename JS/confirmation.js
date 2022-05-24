@@ -1,11 +1,9 @@
-const urlParam = new URL(document.location).searchParams;
+const urlParams = new URLSearchParams(window.location.search);
+const orderId = urlParams.get("orderId");
+const totalPrice = urlParams.get("totalprice");
 
-//afficher le numéro de la commande
-function orderConfirm() {
-  const numeroCommande = document.getElementById("panierContainer");
-  numeroCommande.innerHTML = `
-<div class='row'>
-<p class="card-text">Votre commande a été enrégistrée sous le numéro: ${contenu.orderId}</p>
-</div>
-`;
-}
+let orderNumber = document.querySelector(".order-commande");
+let totalP = document.querySelector(".prix-total");
+
+orderNumber.innerHTML += `<strong> ${orderId}</strong>`;
+totalP.innerHTML += `<strong> ${totalPrice} €</strong>`;
