@@ -32,8 +32,11 @@ header {
 }
 
 .div-header {
-  margin: auto;
-  padding: 5px;
+  /*margin: auto;
+  padding: 5px;*/
+
+  width: 92%;
+  padding: 4%;
 }
 
 .pink {
@@ -62,7 +65,7 @@ li {
 }
 
 .panier {
-  margin-right: 300px;
+  margin-right: 200px;
   font-size: x-large;
   font-weight: bolder;
 }
@@ -264,13 +267,15 @@ input {
 
 /**************************** @media 1240px *************************/
 
+/************index.html**********/
 @media screen and (max-width: 1440px) {
   .index {
-    margin-left: 250px;
+    margin-left: 280px;
   }
   header {
     margin: auto;
   }
+
   /*************Page produits, products.html *****************/
   .onclick {
     width: 20%;
@@ -278,6 +283,7 @@ input {
 }
 
 @media screen and (max-width: 1024px) {
+  /***********Page index.html**********/
   header {
   }
   section {
@@ -329,6 +335,9 @@ input {
 /**************************** @media 425px *************************/
 /***********Page index.html************/
 @media all and (max-width: 425px) {
+  html {
+    width: max-content;
+  }
   body {
     width: fit-content;
     margin: auto;
@@ -337,10 +346,13 @@ input {
     margin: auto;
     display: block;
     justify-content: flex-start;
-    width: 100%;
   }
   #allProducts {
     margin: auto;
+  }
+  .div-header {
+    width: 92%;
+    padding: 4%;
   }
   .panier {
     margin-right: 10px;
