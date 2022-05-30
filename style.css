@@ -351,14 +351,18 @@ input {
     margin: auto;
   }
   .div-header {
-    width: 98%;
-    padding: 1%;
+    width: 96%;
+    padding: 2%;
+  }
+  .pink {
+    width: 96%;
+    padding: 2%;
   }
   .panier {
-    margin-right: 10px;
+    margin-left: 160px;
   }
   .index {
-    margin-left: 280px;
+    margin-left: 50px;
   }
 
   #allProducts {
