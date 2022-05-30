@@ -354,6 +354,10 @@ input {
   #allProducts {
     margin: auto;
   }
+  .nounours {
+    padding: 20px;
+    margin: auto;
+  }
   .div-header {
     width: 96%;
     padding: 2%;
