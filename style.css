@@ -355,14 +355,13 @@ input {
     padding: 2%;
   }
   .pink {
-    width: 96%;
-    padding: 2%;
+    width: 100%;
   }
   .panier {
     margin-left: 160px;
   }
   .index {
-    margin-left: 50px;
+    margin-left: 60px;
   }
 
   #allProducts {
