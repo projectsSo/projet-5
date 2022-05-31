@@ -101,7 +101,6 @@ section {
   transform: scale(1);
   -webkit-transition: 0.1s ease-in-out;
   transition: 0.1s ease-in-out;
-  box-shadow: 0 0 0.5rem rgb(0 0 0 / 25%);
 }
 
 .card :hover {
