@@ -332,10 +332,6 @@ input {
 /**************************** @media 425px *************************/
 /***********Page index.html************/
 @media all and (max-width: 425px) {
-  body {
-    width: fit-content;
-    margin: auto;
-  }
   main {
     margin: auto;
     display: block;
@@ -379,5 +375,13 @@ input {
   /*************Page produits, products.html *****************/
   #topi {
     width: 15rem;
+  }
+}
+/**************************** @media 425px *************************/
+/***********Page index.html************/
+@media all and (max-width: 375px) {
+  body {
+    width: fit-content;
+    margin: auto;
   }
 }
