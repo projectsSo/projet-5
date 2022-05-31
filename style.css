@@ -24,11 +24,13 @@ main {
 }
 
 header {
-  z-index: 10;
   --tw-bg-opacity: 1;
   background-color: rgba(243, 233, 241, var(--tw-bg-opacity));
-  width: 98%;
-  padding: 1%;
+
+  padding: 1rem;
+  box-shadow: 0 0 0.5rem rgb(0 0 0 / 25%);
+  position: relative;
+  z-index: 10;
 }
 
 .div-header {
