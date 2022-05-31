@@ -329,9 +329,6 @@ input {
 /**************************** @media 425px *************************/
 /***********Page index.html************/
 @media all and (max-width: 425px) {
-  html {
-    width: max-content;
-  }
   body {
     width: fit-content;
     margin: auto;
