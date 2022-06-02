@@ -384,6 +384,10 @@ input {
   #topi {
     width: 15rem;
   }
+  .change-footer {
+    display: flex;
+    margin-top: 10px;
+  }
 }
 /**************************** @media 375px *************************/
 /***********Page index.html************/
