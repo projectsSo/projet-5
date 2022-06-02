@@ -410,6 +410,6 @@ input {
 @media all and (max-width: 320px) {
   .change-footer {
     display: flex;
-    margin-top: 15px;
+    margin-top: 125px;
   }
 }
