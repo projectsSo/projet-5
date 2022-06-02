@@ -395,19 +395,19 @@ input {
   body {
     margin: auto;
   }
+  .width {
+    width: max-content;
+  }
   .change-footer {
     display: flex;
-    margin-top: 320px;
+    margin-top: 15px;
   }
 }
 
 /**************************** @media 320px **************************/
 
 /**********Page products.html **********************/
-@media all and (max-width: 375px) {
-  .width {
-    width: max-content;
-  }
+@media all and (max-width: 320px) {
   .change-footer {
     display: flex;
     margin-top: 15px;
