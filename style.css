@@ -314,6 +314,10 @@ input {
     flex-direction: column;
   }
   /*************Page panier, panier.html *****************/
+
+  main {
+    width: 80%;
+  }
   .panier {
     margin-right: 0;
   }
@@ -336,6 +340,10 @@ input {
   section {
     margin-right: 5%;
     margin-left: 5%;
+  }
+  fieldset {
+    display: flex;
+    flex-direction: column;
   }
   #allProducts {
     margin: auto;
