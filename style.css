@@ -395,6 +395,10 @@ input {
   body {
     margin: auto;
   }
+  .change-footer {
+    display: flex;
+    margin-top: 320px;
+  }
 }
 
 /**************************** @media 320px **************************/
@@ -403,5 +407,9 @@ input {
 @media all and (max-width: 375px) {
   .width {
     width: max-content;
+  }
+  .change-footer {
+    display: flex;
+    margin-top: 15px;
   }
 }
