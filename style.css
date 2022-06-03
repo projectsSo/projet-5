@@ -275,8 +275,7 @@ input {
 
 @media screen and (max-width: 1024px) {
   /***********Page index.html**********/
-  header {
-  }
+
   section {
     margin-left: 20%;
   }
@@ -329,22 +328,12 @@ input {
 /**************************** @media 425px *************************/
 /***********Page index.html************/
 @media all and (max-width: 425px) {
-  /*html {
-    width: max-content;
-  }
-  .width {
-    width: max-content;
-  }*/
   main {
     margin: auto;
     display: block;
     justify-content: flex-start;
     width: 80%;
   }
-  /*section {
-    margin-right: 5%;
-    margin-left: 5%;
-  }*/
   fieldset {
     display: flex;
     flex-direction: column;
@@ -362,10 +351,6 @@ input {
   .card-img-top {
     width: 10rem;
   }
-  /*.div-header {
-    width: 96%;
-    padding: 2%;
-  }*/
   .pink {
     width: 100%;
   }
@@ -375,7 +360,6 @@ input {
   .index {
     margin-left: 60px;
   }
-
   #allProducts {
     flex-direction: column;
     margin: 30px 10px;
@@ -384,9 +368,6 @@ input {
 /******Fin page index.html*********/
 /*************Page produits, products.html *****************/
 @media (max-width: 425px) {
-  /*.width {
-    width: auto;
-  }*/
   #topi {
     width: 15rem;
   }
