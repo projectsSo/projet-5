@@ -422,4 +422,8 @@ input {
   .change-footer {
     margin-top: 20px;
   }
+  /*******panier.html******/
+  .articles-container {
+    font-size: xx-small;
+  }
 }
