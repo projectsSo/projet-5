@@ -400,6 +400,11 @@ input {
     display: flex;
     margin-top: 15px;
   }
+  /********Page products.html********/
+
+  .width {
+    width: auto;
+  }
 }
 
 /**************************** @media 320px **************************/
