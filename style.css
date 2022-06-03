@@ -412,6 +412,6 @@ input {
 /**********Page products.html **********************/
 @media all and (max-width: 320px) {
   .change-footer {
-    margin-top: 125px;
+    margin-top: 20px;
   }
 }
