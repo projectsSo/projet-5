@@ -378,7 +378,7 @@ input {
 
   .panier {
     margin-left: 0;
-    font-size: small;
+    font-size: x-small;
   }
   .card-img-top {
     width: 8rem;
@@ -403,9 +403,12 @@ input {
     margin-top: 15px;
   }
   /********Page products.html********/
-
   .width {
     width: auto;
+  }
+  /********Panier.html*******/
+  .panier {
+    font-size: xx-small;
   }
 }
 
