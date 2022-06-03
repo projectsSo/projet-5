@@ -379,8 +379,15 @@ input {
     margin-top: 10px;
   }
   /************Panier.html***************/
+  html {
+    width: max-content;
+  }
   .panier {
     margin-left: 0;
+  }
+  .card-img-top {
+    width: 5rem;
+    height: min-content;
   }
 }
 /**************************** @media 375px *************************/
