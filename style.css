@@ -311,9 +311,11 @@ input {
     flex-direction: column;
   }
   /*************Page panier, panier.html *****************/
-
   main {
     width: 80%;
+  }
+  caption {
+    margin-top: 5%;
   }
   .panier {
     margin-right: 0;
