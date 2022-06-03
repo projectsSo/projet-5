@@ -10,6 +10,14 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0;
 }
+header {
+  --tw-bg-opacity: 1;
+  background-color: rgba(243, 233, 241, var(--tw-bg-opacity));
+  padding: 1rem;
+  box-shadow: 0 0 0.5rem rgb(0 0 0 / 25%);
+  position: relative;
+  z-index: 10;
+}
 
 main {
   /*margin: auto;*/
@@ -21,15 +29,6 @@ main {
   max-width: 2000px;
   margin-left: auto;
   margin-right: auto;
-}
-
-header {
-  --tw-bg-opacity: 1;
-  background-color: rgba(243, 233, 241, var(--tw-bg-opacity));
-  padding: 1rem;
-  box-shadow: 0 0 0.5rem rgb(0 0 0 / 25%);
-  position: relative;
-  z-index: 10;
 }
 
 .pink {
@@ -241,7 +240,10 @@ input {
   height: 50px;
   font-weight: bolder;
 }
-
+.articles-container {
+  font-size: x-large;
+  font-weight: bolder;
+}
 /******Fin page panier******/
 
 /******Page confirmation.html********/
@@ -353,6 +355,7 @@ input {
   .panier {
     margin-left: 93px;
   }
+
   .index {
     margin-left: 60px;
   }
@@ -376,7 +379,7 @@ input {
   }
   /************Panier.html***************/
 
-  .panier {
+  .articles-container {
     margin-left: 0;
     font-size: x-small;
   }
