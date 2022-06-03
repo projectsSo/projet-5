@@ -379,11 +379,10 @@ input {
     margin-top: 10px;
   }
   /************Panier.html***************/
-  html {
-    width: max-content;
-  }
+
   .panier {
     margin-left: 0;
+    font-size: small;
   }
   .card-img-top {
     width: 5rem;
