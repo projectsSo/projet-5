@@ -329,18 +329,22 @@ input {
 /**************************** @media 425px *************************/
 /***********Page index.html************/
 @media all and (max-width: 425px) {
-  .width {
+  /*html {
     width: max-content;
   }
+  .width {
+    width: max-content;
+  }*/
   main {
     margin: auto;
     display: block;
     justify-content: flex-start;
+    width: 80%;
   }
-  section {
+  /*section {
     margin-right: 5%;
     margin-left: 5%;
-  }
+  }*/
   fieldset {
     display: flex;
     flex-direction: column;
@@ -352,10 +356,16 @@ input {
     padding: 20px;
     margin: auto;
   }
-  .div-header {
+  .card {
+    width: 150px;
+  }
+  .card-img-top {
+    width: 10rem;
+  }
+  /*.div-header {
     width: 96%;
     padding: 2%;
-  }
+  }*/
   .pink {
     width: 100%;
   }
@@ -370,24 +380,23 @@ input {
     flex-direction: column;
     margin: 30px 10px;
   }
-
-  .card-img-top {
-    margin-top: 30px;
-    width: 20rem;
-  }
 }
 /******Fin page index.html*********/
 /*************Page produits, products.html *****************/
 @media (max-width: 425px) {
-  .width {
+  /*.width {
     width: auto;
-  }
+  }*/
   #topi {
     width: 15rem;
   }
   .change-footer {
     display: flex;
     margin-top: 10px;
+  }
+  /************Panier.html***************/
+  .panier {
+    margin-left: 0;
   }
 }
 /**************************** @media 375px *************************/
@@ -398,6 +407,10 @@ input {
   }
   .width {
     width: max-content;
+  }
+  .index {
+    margin-left: 30px;
+    margin-right: 10px;
   }
   .change-footer {
     display: flex;
