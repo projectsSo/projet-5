@@ -425,6 +425,9 @@ input {
 
 /**********Page products.html **********************/
 @media all and (max-width: 320px) {
+  .logo {
+    width: 100px;
+  }
   .change-footer {
     margin-top: 20px;
   }
