@@ -250,6 +250,11 @@ input {
 #info {
   font-weight: 500;
   color: #9866c1;
+  margin-top: 100px;
+}
+
+#footer-margin {
+  margin-top: 400px;
 }
 
 /*******************************************BREAKPOINTS************************************************/
@@ -431,8 +436,12 @@ input {
   .change-footer {
     margin-top: 50px;
   }
+
   /*******panier.html******/
   .articles-container {
     font-size: xx-small;
+  }
+  /********confirmation.html********/
+  #footer-margin {
   }
 }
