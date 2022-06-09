@@ -359,7 +359,11 @@ input {
   }
 
   .index {
-    margin-left: 60px;
+    margin-left: 40px;
+    font-size: medium;
+  }
+  .panier {
+    font-size: medium;
   }
   #allProducts {
     flex-direction: column;
@@ -413,7 +417,7 @@ input {
   }
   /********Panier.html*******/
   .panier {
-    font-size: xx-small;
+    margin-left: 3px;
   }
 }
 
