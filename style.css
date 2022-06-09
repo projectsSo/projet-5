@@ -252,9 +252,11 @@ input {
   color: #9866c1;
   margin-top: 100px;
 }
-
+.order-commande {
+  margin-top: 40px;
+}
 #footer-margin {
-  margin-top: 400px;
+  margin-top: 350px;
 }
 
 /*******************************************BREAKPOINTS************************************************/
