@@ -404,8 +404,8 @@ input {
     width: max-content;
   }
   .index {
-    margin-left: 30px;
-    margin-right: 10px;
+    margin-left: 0px;
+    margin-right: 5px;
   }
   .change-footer {
     display: flex;
