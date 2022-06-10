@@ -162,7 +162,7 @@ section {
   flex: 1;
 }
 
-#copyright {
+.copyright {
   font-style: normal;
   font-weight: 500;
   color: rgb(41, 39, 39);
