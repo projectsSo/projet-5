@@ -5,5 +5,5 @@ const totalPrice = urlParams.get("totalprice");
 let orderNumber = document.querySelector(".order-commande");
 let totalP = document.querySelector(".prix-total");
 
-orderNumber.innerHTML += `<strong> ${orderId}</strong>`;
+orderNumber.innerHTML += `<strong id="style"> ${orderId}</strong>`;
 totalP.innerHTML += `<strong> ${totalPrice} €</strong>`;

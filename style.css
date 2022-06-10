@@ -346,9 +346,7 @@ input {
     flex-direction: column;
   }
   /*************Page panier, panier.html *****************/
-  /* main {
-    width: 80%;
-  }*/
+
   caption {
     margin-top: 5%;
   }
@@ -359,6 +357,9 @@ input {
     justify-content: space-around;
   }
   /*********page confirmation.html*********/
+  #footer-margin {
+    height: 200px;
+  }
 }
 
 /**************************** @media 425px *************************/
@@ -464,6 +465,10 @@ input {
     margin-left: 3px;
   }
   /*********page confirmation.html**********/
+  #style {
+    font-weight: 900;
+    font-size: small;
+  }
   .contenu-footer {
     display: block;
     width: auto;
