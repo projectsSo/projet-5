@@ -490,6 +490,9 @@ input {
   }
 
   /*******panier.html******/
+  #main {
+    margin: 0;
+  }
   .articles-container {
     font-size: xx-small;
   }
