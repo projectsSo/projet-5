@@ -14,28 +14,35 @@
 
   <body>
     <!--header-->
-    
+
     <header class="violet">
-      <a href="index.html"><i class="fas fa-arrow-left"></i></a>               <!--fléche retour page d'accueil-->
+      <a href="index.html"><i class="fas fa-arrow-left"></i></a>
+      <!--fléche retour page d'accueil-->
       <nav class="pink">
         <a href="./index.html">
           <img class="logo" src="img/logo.png" alt="logo orinoco"
         /></a>
         <ul>
-      <li><a class="panier" href="./panier.html">Panier</a></li>
+          <li><a class="panier" href="./panier.html">Panier</a></li>
         </ul>
       </nav>
-      </header>
+    </header>
     <!--Fin header-->
 
     <main>
       <div id="product"></div>
       <div>
         <form>
-            <input class="onclick" type="button" value="Ajouter au panier" onclick="ajouterAuPanier()">
+          <div>
+            <input
+              class="onclick"
+              type="button"
+              value="Ajouter au panier"
+              onclick="ajouterAuPanier()"
+            />
           </div>
         </form>
-        </div>
+      </div>
     </main>
 
     <footer class="footer-bis">
@@ -46,17 +53,17 @@
         <a class="white" href="mailto:service-client@gmail.com"
           ><p>Contact</p></a
         >
-        
+
         <p class="copyright">
           Tous droits réservés © Orinoco
-          <!-- -->2021<!-- --></p>
+          <!-- -->2021<!-- -->
+        </p>
       </div>
-    
     </footer>
 
     <!--Code javaScript-->
     <script src="JS/products.js"></script>
-    
+
     <!--Fin Code javaScript-->
   </body>
 </html>
