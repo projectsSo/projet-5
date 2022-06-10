@@ -181,7 +181,9 @@ section {
   background: #d9c9ef;
   width: auto;
 }
-
+.col {
+  margin-top: 10%;
+}
 #change-card {
   margin-right: auto;
   margin-left: auto;
@@ -201,6 +203,9 @@ section {
 
 .onclick {
   cursor: pointer;
+}
+#footer-products {
+  margin-top: 17%;
 }
 .change-footer {
   justify-content: space-evenly;
