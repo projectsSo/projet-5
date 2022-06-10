@@ -490,8 +490,13 @@ input {
   }
 
   /*******panier.html******/
-  #main {
-    margin: 0;
+
+  .card-img-top {
+    width: 5rem;
+  }
+  .selection-validation {
+    margin-left: 15px;
+    margin-right: 15px;
   }
   .articles-container {
     font-size: xx-small;
