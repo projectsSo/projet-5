@@ -250,9 +250,13 @@ input {
   font-size: x-large;
   font-weight: bolder;
 }
-#change {
-  margin-top: 7%;
+.selection-validation {
+  margin-top: 2%;
 }
+#valider {
+  margin-top: 1%;
+}
+
 /******Fin page panier******/
 
 /******Page confirmation.html********/
