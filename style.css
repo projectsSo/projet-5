@@ -64,7 +64,6 @@ li {
 
 #title {
   margin-left: 2%;
-  margin-top: 3%;
 }
 
 section {
@@ -380,7 +379,6 @@ input {
   }
   #allProducts {
     flex-direction: column;
-    margin: 30px 10px;
   }
 }
 /******Fin page index.html*********/
