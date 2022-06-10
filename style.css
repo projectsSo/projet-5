@@ -4,7 +4,6 @@
 html {
   text-size-adjust: 100%; /* Determine ajustement taille police par rapport à sa taille initiale*/
   font-size: 100%; /*Tous mes éléments utilisant l’unité de mesure REM, auront une taille relative à cette taille (100% dans le cas présent)*/
-  /*height: 100%;*/
 }
 
 body {
