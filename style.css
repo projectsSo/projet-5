@@ -4,11 +4,13 @@
 html {
   text-size-adjust: 100%; /* Determine ajustement taille police par rapport à sa taille initiale*/
   font-size: 100%; /*Tous mes éléments utilisant l’unité de mesure REM, auront une taille relative à cette taille (100% dans le cas présent)*/
+  height: 100%;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
+  height: 100%;
 }
 header {
   --tw-bg-opacity: 1;
@@ -23,6 +25,7 @@ main {
   /*margin: auto;*/
   margin-left: 5%;
   margin-right: 5%;
+  position: relative;
 }
 
 .container {
@@ -215,7 +218,7 @@ section {
   bottom: 0;
   margin-top: 4%;
   width: 96%;
-  padding: 2%;
+  /*padding: 2%;*/
   align-items: center;
 }
 /*Fin page produits, produits.html*/
@@ -269,7 +272,13 @@ input {
   margin-top: 40px;
 }
 #footer-margin {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
   position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 180px;
 }
 
 /*******************************************BREAKPOINTS************************************************/
@@ -453,8 +462,13 @@ input {
   .panier {
     margin-left: 3px;
   }
+  /*********page confirmation.html**********/
+  .contenu-footer {
+    display: block;
+    width: auto;
+    margin: 0;
+  }
 }
-
 /**************************** @media 320px **************************/
 
 @media all and (max-width: 320px) {
