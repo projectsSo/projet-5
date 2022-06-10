@@ -423,6 +423,9 @@ input {
     width: 8rem;
     height: min-content;
   }
+  #valider {
+    margin-top: 4.5%;
+  }
 }
 /**************************** @media 375px *************************/
 /***********Page index.html************/
