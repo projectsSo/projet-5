@@ -165,12 +165,6 @@ section {
   font-weight: 500;
   color: rgb(41, 39, 39);
 }
-#margin-left {
-  margin-left: 15px;
-}
-#margin-right {
-  margin-right: 15px;
-}
 
 /*End footer*/
 
@@ -223,6 +217,12 @@ section {
   margin-top: 4%;
   width: 100%;
   align-items: center;
+}
+#margin-left {
+  margin-left: 15px;
+}
+#margin-right {
+  margin-right: 15px;
 }
 /*Fin page produits, produits.html*/
 
