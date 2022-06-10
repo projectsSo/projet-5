@@ -64,6 +64,7 @@ li {
 
 #title {
   margin-left: 2%;
+  margin-top: 5%;
 }
 
 section {
@@ -298,6 +299,9 @@ input {
     margin-left: 10%;
     margin-right: 10%;
   }
+  #title {
+    margin-top: 10%;
+  }
   li.item {
     width: 80%;
   }
@@ -349,6 +353,10 @@ input {
   section {
     margin-left: 5%;
     margin-right: 5%;
+  }
+  #title {
+    margin-bottom: 1%;
+    margin-top: 15%;
   }
   #allProducts {
     margin: auto;
@@ -432,8 +440,12 @@ input {
 
 /**************************** @media 320px **************************/
 
-/**********Page products.html **********************/
 @media all and (max-width: 320px) {
+  /****index.html*******/
+  #title {
+    font-size: medium;
+  }
+  /**********Page products.html **********************/
   .logo {
     width: 100px;
   }
