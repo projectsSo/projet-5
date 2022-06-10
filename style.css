@@ -296,7 +296,8 @@ input {
 /***********Page index.html************/
 @media screen and (max-width: 768px) {
   .index {
-    margin-left: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
   }
   li.item {
     width: 80%;
@@ -319,9 +320,9 @@ input {
     flex-direction: column;
   }
   /*************Page panier, panier.html *****************/
-  main {
+  /* main {
     width: 80%;
-  }
+  }*/
   caption {
     margin-top: 5%;
   }
@@ -345,6 +346,10 @@ input {
   fieldset {
     display: flex;
     flex-direction: column;
+  }
+  section {
+    margin-left: 5%;
+    margin-right: 5%;
   }
   #allProducts {
     margin: auto;
@@ -384,9 +389,7 @@ input {
   #topi {
     width: 15rem;
   }
-  section {
-    margin-left: 0;
-  }
+
   .change-footer {
     display: flex;
     margin-top: 10px;
