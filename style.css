@@ -263,13 +263,13 @@ input {
 #info {
   font-weight: 500;
   color: #9866c1;
-  margin-top: 100px;
+  margin-top: 8%;
 }
 .order-commande {
   margin-top: 40px;
 }
 #footer-margin {
-  margin-top: 350px;
+  position: absolute;
 }
 
 /*******************************************BREAKPOINTS************************************************/
@@ -348,6 +348,7 @@ input {
   .pink {
     justify-content: space-around;
   }
+  /*********page confirmation.html*********/
 }
 
 /**************************** @media 425px *************************/
@@ -474,6 +475,4 @@ input {
     font-size: xx-small;
   }
   /********confirmation.html********/
-  #footer-margin {
-  }
 }
