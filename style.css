@@ -4,7 +4,7 @@
 html {
   text-size-adjust: 100%; /* Determine ajustement taille police par rapport à sa taille initiale*/
   font-size: 100%; /*Tous mes éléments utilisant l’unité de mesure REM, auront une taille relative à cette taille (100% dans le cas présent)*/
-  height: 100%;
+  /*height: 100%;*/
 }
 
 body {
@@ -445,9 +445,7 @@ input {
   body {
     margin: auto;
   }
-  .width {
-    width: max-content;
-  }
+
   .index {
     margin-left: 0px;
     margin-right: 5px;
@@ -457,9 +455,7 @@ input {
     margin-top: 15px;
   }
   /********Page products.html********/
-  .width {
-    width: auto;
-  }
+
   /********Panier.html*******/
   .panier {
     margin-left: 3px;
