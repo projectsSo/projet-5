@@ -156,11 +156,12 @@ section {
   min-height: 10vh;
   margin-top: 7%;
 }
-.white {
+.margin {
   font-weight: 300;
   flex: 1;
-  margin-left: 15px;
+  margin-left: 0;
 }
+
 .copyright {
   font-style: normal;
   font-weight: 500;
@@ -220,7 +221,11 @@ section {
   width: 100%;
   align-items: center;
 }
-
+.white {
+  font-weight: 300;
+  flex: 1;
+  margin-left: 15px;
+}
 /*Fin page produits, produits.html*/
 
 /*************Page panier, panier.html *****************/
