@@ -267,6 +267,9 @@ input {
 /******Fin page panier.html******/
 
 /******Page confirmation.html********/
+#height {
+  height: 100%;
+}
 #info {
   font-weight: 500;
   color: #9866c1;
@@ -274,6 +277,9 @@ input {
 }
 .order-commande {
   margin-top: 40px;
+}
+#remerciement {
+  color: #9866c1;
 }
 #footer-margin {
   display: flex;
