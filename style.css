@@ -25,7 +25,11 @@ main {
   margin-right: 5%;
   position: relative;
 }
-
+#main {
+  min-height: 650px;
+  display: flex;
+  flex-direction: column;
+}
 .container {
   max-width: 2000px;
   margin-left: auto;
