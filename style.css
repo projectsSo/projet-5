@@ -230,9 +230,9 @@ section {
 /*************Page panier, panier.html *****************/
 
 #main {
+  min-height: 650px;
   display: flex;
   flex-direction: column;
-  min-height: 280px;
 }
 
 caption {
