@@ -271,6 +271,12 @@ input {
 }
 
 /******Fin page panier.html******/
+/******Panier.js******/
+#vide {
+  color: #781cc3;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 
 /******Page confirmation.html********/
 #height {
