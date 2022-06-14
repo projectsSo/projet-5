@@ -92,7 +92,7 @@ function supprimerDuPanier(idToRemove) {
   //Faire disparaitre la partie commande si panier vide
   if (basket == 0) {
     let display = document.querySelector(".commande");
-    display.style.cssText = "display: none;";
+    display.innerHTML = `<p id="vide">Votre panier est vide, veuillez choisir vos articles.</p>`;
   }
 }
 
