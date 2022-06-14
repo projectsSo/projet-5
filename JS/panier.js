@@ -15,6 +15,7 @@ function SaveBasket(basketToSave) {
 //--------------Fin gestion local storage
 
 function afficherPanier() {
+  document.getElementById("corpsPanier").innerHTML = ""; //nettoyage du html
   let totalPanier = 0;
 
   //itérer sur le panier
@@ -23,35 +24,35 @@ function afficherPanier() {
     totalPanier = totalPanier + product.quantity * product.price; //somme du panier
 
     let htmlgenerate = `
-    <tr>
-        <td>
-        <img src=${product.imageUrl} class="card-img-top">
-        </td>
-        <td><h3 class="card-title" >${product.name}</h3></td>
-        <td><p class="card-text"><span class="infoMobile">Qté: </span>${
-          product.quantity
-        }</p></td>
-        <td><p class="card-text">${product.price / 100 + "€"}</p></td>
-        <td><p class="card-text">${
-          (product.quantity * product.price) / 100 + "€"
-        }</p></td>
-        <td><input type="button" value="X" onclick="btnSupprimerDuPanier('${
-          product._id
-        }')"></td>
-    </tr>
-        `;
+  <tr>
+      <td>
+      <img src=${product.imageUrl} class="card-img-top">
+      </td>
+      <td><h3 class="card-title" >${product.name}</h3></td>
+      <td><p class="card-text"><span class="infoMobile">Qté: </span>${
+        product.quantity
+      }</p></td>
+      <td><p class="card-text">${product.price / 100 + "€"}</p></td>
+      <td><p class="card-text">${
+        (product.quantity * product.price) / 100 + "€"
+      }</p></td>
+      <td><input type="button" value="X" onclick="supprimerDuPanier('${
+        product._id
+      }')"></td>
+  </tr>
+      `;
 
     document.getElementById("corpsPanier").innerHTML += htmlgenerate;
 
     //afficher le total du panier
     const total = document.getElementById("totalPanier");
     total.innerHTML = `
-    <div class='row'>
-        <p class="card-text">Total de votre commande: <strong>${
-          totalPanier / 100 + "€"
-        }</strong></p>
-    </div>
-    `;
+  <div class='row'>
+      <p class="card-text">Total de votre commande: <strong>${
+        totalPanier / 100 + "€"
+      }</strong></p>
+  </div>
+  `;
   }
 }
 afficherPanier(); //call function
@@ -68,6 +69,7 @@ let Total;
 
 const votrePanier = document.querySelector(".etatPanier");
 const votrePanierTitre = document.createElement("h2");
+votrePanier.append(votrePanierTitre);
 
 const corpsPanier = document.getElementById("corpsPanier");
 
@@ -75,7 +77,7 @@ const totalPanier = document.getElementById("totalPanier");
 //console.log(ajoutPanier);
 
 //supprimer un article du panier
-function btnSupprimerDuPanier(idToRemove) {
+function supprimerDuPanier(idToRemove) {
   //localStorage.removeItem(id);
   let basket = GetBasket();
 
@@ -90,7 +92,7 @@ function btnSupprimerDuPanier(idToRemove) {
 
 //récupérer les infos du formulaire
 function validationClick(e) {
-  e.preventDefault(); // Dans un boutton submit, lorsque j'appuie dessus, évite que ça recharge la page
+  e.preventDefault(); //évite de recharger la page PS: Uniquement ds un boutton submit
   var nom = document.getElementById("nom");
   var prenom = document.getElementById("prénom").value;
   var email = document.getElementById("email").value;
@@ -183,22 +185,18 @@ function validationClick(e) {
     productList.push(item._id);
   }
 
-  //alerte si le client valide un panier vide
-  if (productList.length == 0) {
-    alert("Votre panier est vide");
-    return; //empêche l'exécution de la suite de la fonction
-  }
-
   //Affiche le total du prix dans confirmation.js
   let totalPrice = 0;
 
   basket.forEach(function (produit) {
     totalPrice += (produit.quantity * produit.price) / 100;
-    for (const produit of basket) {
-      totalPrice = totalPrice + (produit.quantity * produit.price) / 100;
-    }
   });
 
+  //alerte si le client valide un panier vide
+  if (productList.length == 0) {
+    alert("Votre panier est vide");
+    return; //empêche l'exécution de la suite de la fonction
+  }
   //var contact = new newUser(nom.value, prenom, adresse, email, ville);
   let contact = {
     firstName: prenom,
