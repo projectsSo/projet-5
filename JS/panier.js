@@ -88,6 +88,12 @@ function supprimerDuPanier(idToRemove) {
   afficherPanier();
 
   window.alert("L'article a été supprimé de votre panier.");
+
+  //Faire disparaitre la partie commande si panier vide
+  if (basket == 0) {
+    let display = document.querySelector(".commande");
+    display.style.cssText = "display: none;";
+  }
 }
 
 //récupérer les infos du formulaire
