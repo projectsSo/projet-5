@@ -62,7 +62,11 @@ li {
   font-size: x-large;
   font-weight: bolder;
 }
-
+.orinounours {
+  color: #7f2df1;
+  width: auto;
+  margin: auto;
+}
 #title {
   margin-left: 2%;
   margin-top: 5%;
