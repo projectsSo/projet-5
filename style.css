@@ -62,14 +62,18 @@ li {
   font-size: x-large;
   font-weight: bolder;
 }
+
 .orinounours {
-  color: #7f2df1;
-  width: auto;
+  color: #7f46ad;
+  text-align: center;
   margin: auto;
+  padding-top: 50px;
 }
+
 #title {
   margin-left: 2%;
   margin-top: 5%;
+  /* color: rgb(172, 154, 154);*/
 }
 
 section {
