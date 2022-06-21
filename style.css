@@ -489,6 +489,9 @@ input {
     display: flex;
     margin-top: 15px;
   }
+  .copyright {
+    font-size: medium;
+  }
   /********Page products.html********/
 
   /********Panier.html*******/
