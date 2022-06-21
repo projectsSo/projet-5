@@ -519,6 +519,9 @@ input {
   .change-footer {
     margin-top: 50px;
   }
+  .copyright {
+    font-size: small;
+  }
 
   /*******panier.html******/
 
