@@ -412,6 +412,7 @@ input {
   #title {
     margin-bottom: 1%;
     margin-top: 15%;
+    font-size: medium;
   }
   #allProducts {
     margin: auto;
@@ -480,6 +481,9 @@ input {
     margin-left: 0px;
     margin-right: 5px;
   }
+  #title {
+    font-size: smaller;
+  }
   .change-footer {
     display: flex;
     margin-top: 15px;
@@ -504,10 +508,6 @@ input {
 /**************************** @media 320px **************************/
 
 @media all and (max-width: 320px) {
-  /****index.html*******/
-  #title {
-    font-size: medium;
-  }
   /**********Page products.html **********************/
   .logo {
     width: 100px;
