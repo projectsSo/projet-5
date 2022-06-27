@@ -211,7 +211,7 @@ function validationClick(e) {
     email: email,
     city: ville,
   };
-  //envoyer en post au serveur
+  // Envoi de la requête POST au backend
   var promise01 = fetch("http://localhost:3000/api/teddies/order", {
     method: "POST",
     body: JSON.stringify({ contact: contact, products: productList }),

@@ -1,10 +1,5 @@
-/*const urlParam = new URLSearchParams(window.location.search);
-let productId = urlParam.get("id");
-let product = null;
-*/
-
 let urlParam = new URL(document.location).searchParams; //J'appelle l'API uniquement avec le nounours qui m'interesse
-let productId = urlParam.get("id");
+let productId = urlParam.get("id"); //Il faut stocker l'id dans une variable
 let product = null;
 
 fetch("http://localhost:3000/api/teddies/" + productId)
