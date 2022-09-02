@@ -1,3 +1,5 @@
+//------------panier.js
+
 //------------Gestion du local storage
 
 function GetBasket() {
