@@ -277,6 +277,9 @@ input {
 }
 #valider {
   margin-top: 1%;
+  background-color: #9a509a;
+  border-style: none;
+  height: 30px;
 }
 
 /******Fin page panier.html******/
