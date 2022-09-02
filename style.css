@@ -256,17 +256,17 @@ caption {
 }
 
 input {
-  color: #781cc3;
+  color: white;
 }
 .onclick {
   display: block;
-  background-color: #9866c1;
-  border-color: blueviolet;
+  background-color: #8e5bb7;
+  border-color: rgb(138, 80, 189);
   margin-left: auto;
   margin-right: auto;
-  width: 10%;
   height: 50px;
   font-weight: bolder;
+  border-style: none;
 }
 .articles-container {
   font-size: x-large;
