@@ -57,25 +57,6 @@ function afficherPanier() {
 }
 afficherPanier(); //call function
 
-const idform = document.querySelector(".commande");
-
-//récupérer le conteneur
-function recup(event) {
-  var comm = event.target;
-}
-
-// Récupération et html
-let Total;
-
-const votrePanier = document.querySelector(".etatPanier");
-const votrePanierTitre = document.createElement("h2");
-votrePanier.append(votrePanierTitre);
-
-const corpsPanier = document.getElementById("corpsPanier");
-
-const totalPanier = document.getElementById("totalPanier");
-//console.log(ajoutPanier);
-
 //supprimer un article du panier
 function supprimerDuPanier(idToRemove) {
   //localStorage.removeItem(id);
